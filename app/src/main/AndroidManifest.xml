@@ -16,8 +16,14 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+<<<<<<< HEAD
         <activity android:name=".ReservationsActivity" />
         <activity android:name=".Res1Activity"></activity>
+=======
+        <activity android:name=".ProfileActivity" />
+        <activity android:name=".SearchActivity" />
+        <activity android:name=".Res2Activity"></activity>
+>>>>>>> f5d59c7ba12094ccb44d9746564fc690f9977646
     </application>
 
 </manifest>
