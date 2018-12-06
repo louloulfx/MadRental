@@ -5,14 +5,100 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
+    
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Mad Rental"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/app_name"
+                android:textSize="@dimen/main_title_size"
+                android:textColor="@color/title_color"
+                android:layout_marginTop="@dimen/margin_main_title"
+                android:layout_marginBottom="@dimen/margin_main_title"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/Btn-Reservations"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/btn_res_name"
+                android:textSize="@dimen/btn_text_size"
+                android:textColor="@color/white"
+                android:textAllCaps="false"
+                android:background="@drawable/bouton"
+                android:layout_marginLeft="@dimen/margin_button"
+                android:layout_marginRight="@dimen/margin_button"/>
+
+            <Button
+                android:id="@+id/Btn-Profile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/btn_profile_name"
+                android:textSize="@dimen/btn_text_size"
+                android:textColor="@color/white"
+                android:textAllCaps="false"
+                android:background="@drawable/bouton"
+                android:layout_marginLeft="@dimen/margin_button"
+                android:layout_marginRight="@dimen/margin_button"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/search_title_name"
+                android:textSize="@dimen/secondary_title_size"
+                android:textColor="@color/dark"
+                android:layout_marginTop="@dimen/margin_search_area"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"/>
+
+            <EditText
+                android:id="@+id/Start-Date"
+                android:hint="@string/edit_text_start_name"
+                android:textSize="@dimen/editText_size"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_edit_text"
+                android:layout_marginRight="@dimen/margin_edit_text"
+                android:paddingLeft="@dimen/padding_edit_text"
+                android:paddingRight="@dimen/padding_edit_text"
+                android:background="@drawable/edit_text"/>
+
+            <EditText
+                android:id="@+id/End-Date"
+                android:hint="@string/edit_text_end_name"
+                android:textSize="@dimen/editText_size"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_edit_text"
+                android:layout_marginRight="@dimen/margin_edit_text"
+                android:paddingLeft="@dimen/padding_edit_text"
+                android:paddingRight="@dimen/padding_edit_text"
+                android:background="@drawable/edit_text"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/btn_search_name"
+                android:textSize="@dimen/btn_text_size"
+                android:textColor="@color/white"
+                android:textAllCaps="false"
+                android:background="@drawable/bouton"
+                android:layout_marginLeft="@dimen/margin_button"
+                android:layout_marginRight="@dimen/margin_button"/>
+
+        </LinearLayout>
+
+    </ScrollView>
 
 </android.support.constraint.ConstraintLayout>

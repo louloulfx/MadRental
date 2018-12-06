@@ -1,8 +1,14 @@
 <resources>
-    <string name="app_name">Application Mad Rental</string>
     <string name="profile_text">Merci de renseigner votre profil :</string>
     <string name="profile_edittext1">Nom</string>
     <string name="profile_edittext2">Prénom</string>
     <string name="profile_edittext3">Date de naissance</string>
     <string name="brofile_button">Valider</string>
+    <string name="app_name">Mad Rental</string>
+    <string name="btn_res_name">Mes réservations</string>
+    <string name="btn_profile_name">Mon profil</string>
+    <string name="search_title_name">Lancer une recherche</string>
+    <string name="edit_text_start_name">Date de début de réservation</string>
+    <string name="edit_text_end_name">Date de fin de réservation</string>
+    <string name="btn_search_name">Rechercher</string>
 </resources>
