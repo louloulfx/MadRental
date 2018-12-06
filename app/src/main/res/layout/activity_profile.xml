@@ -6,4 +6,54 @@
     android:layout_height="match_parent"
     tools:context=".ProfileActivity">
 
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="146dp"
+        tools:layout_editor_absoluteY="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/profile_textview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/profile_text"
+                android:textColor="@color/dark"
+                app:layout_constraintBottom_toTopOf="@+id/profile_edit_text_1" />
+
+            <EditText
+                android:id="@+id/profile_edit_text_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/edit_text"
+                android:text="@string/profile_edittext1" />
+
+            <EditText
+                android:id="@+id/profile_edit_text_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/edit_text"
+                android:text="@string/profile_edittext2" />
+
+            <EditText
+                android:id="@+id/profile_edit_text_3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/edit_text"
+                android:text="@string/profile_edittext3" />
+
+            <Button
+                android:id="@+id/profile_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bouton"
+                android:text="@string/brofile_button"
+                android:textColor="@color/white" />
+        </LinearLayout>
+    </ScrollView>
 </android.support.constraint.ConstraintLayout>

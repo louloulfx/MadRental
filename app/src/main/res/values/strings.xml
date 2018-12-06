@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Application Mad Rental</string>
+    <string name="profile_text">Merci de renseigner votre profil :</string>
+    <string name="profile_edittext1">Nom</string>
+    <string name="profile_edittext2">Prénom</string>
+    <string name="profile_edittext3">Date de naissance</string>
+    <string name="brofile_button">Valider</string>
 </resources>
