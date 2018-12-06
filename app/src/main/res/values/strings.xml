@@ -16,4 +16,7 @@
     <string name="profile_edittext3">Date de naissance</string>
     <string name="brofile_button">Valider</string>
 
+    <!-- Reservation 1/2 page -->
+    <string name="res1_button">Suivant</string>
+
 </resources>
