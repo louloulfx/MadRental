@@ -16,6 +16,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".ReservationsActivity" />
+        <activity android:name=".Res1Activity"></activity>
     </application>
 
 </manifest>
