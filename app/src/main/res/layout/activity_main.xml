@@ -17,6 +17,7 @@
             android:orientation="vertical">
 
             <TextView
+                android:id="@+id/Main_Title"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/app_name"
@@ -31,7 +32,7 @@
             <Button
                 android:id="@+id/Btn-Reservations"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="@dimen/heigh_btn"
                 android:text="@string/btn_res_name"
                 android:textSize="@dimen/btn_text_size"
                 android:textColor="@color/white"
@@ -43,14 +44,15 @@
             <Button
                 android:id="@+id/Btn-Profile"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="@dimen/heigh_btn"
                 android:text="@string/btn_profile_name"
                 android:textSize="@dimen/btn_text_size"
                 android:textColor="@color/white"
                 android:textAllCaps="false"
                 android:background="@drawable/bouton"
                 android:layout_marginLeft="@dimen/margin_button"
-                android:layout_marginRight="@dimen/margin_button"/>
+                android:layout_marginRight="@dimen/margin_button"
+                android:layout_marginTop="@dimen/margin_between_elements"/>
 
             <TextView
                 android:layout_width="wrap_content"
@@ -64,38 +66,41 @@
 
             <EditText
                 android:id="@+id/Start-Date"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/heigh_editText"
                 android:hint="@string/edit_text_start_name"
                 android:textSize="@dimen/editText_size"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
                 android:layout_marginLeft="@dimen/margin_edit_text"
                 android:layout_marginRight="@dimen/margin_edit_text"
                 android:paddingLeft="@dimen/padding_edit_text"
                 android:paddingRight="@dimen/padding_edit_text"
+                android:layout_marginTop="@dimen/margin_between_elements"
                 android:background="@drawable/edit_text"/>
 
             <EditText
                 android:id="@+id/End-Date"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/heigh_editText"
                 android:hint="@string/edit_text_end_name"
                 android:textSize="@dimen/editText_size"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
                 android:layout_marginLeft="@dimen/margin_edit_text"
                 android:layout_marginRight="@dimen/margin_edit_text"
                 android:paddingLeft="@dimen/padding_edit_text"
                 android:paddingRight="@dimen/padding_edit_text"
+                android:layout_marginTop="@dimen/margin_between_elements"
                 android:background="@drawable/edit_text"/>
 
             <Button
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="@dimen/heigh_btn"
                 android:text="@string/btn_search_name"
                 android:textSize="@dimen/btn_text_size"
                 android:textColor="@color/white"
                 android:textAllCaps="false"
                 android:background="@drawable/bouton"
                 android:layout_marginLeft="@dimen/margin_button"
-                android:layout_marginRight="@dimen/margin_button"/>
+                android:layout_marginRight="@dimen/margin_button"
+                android:layout_marginTop="@dimen/margin_between_elements"/>
 
         </LinearLayout>
 
