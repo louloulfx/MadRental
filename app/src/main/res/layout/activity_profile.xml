@@ -29,7 +29,7 @@
         <EditText
             android:id="@+id/profile_edit_text_1"
             android:layout_width="match_parent"
-            android:layout_height="@dimen/heigh_editText"
+            android:layout_height="@dimen/height_editText"
             android:layout_marginLeft="@dimen/margin_edit_text"
             android:layout_marginTop="@dimen/margin_between_elements"
             android:layout_marginRight="@dimen/margin_edit_text"
@@ -42,7 +42,7 @@
         <EditText
             android:id="@+id/profile_edit_text_2"
             android:layout_width="match_parent"
-            android:layout_height="@dimen/heigh_editText"
+            android:layout_height="@dimen/height_editText"
             android:layout_marginLeft="@dimen/margin_edit_text"
             android:layout_marginTop="@dimen/margin_between_elements"
             android:layout_marginRight="@dimen/margin_edit_text"
@@ -55,7 +55,7 @@
         <EditText
             android:id="@+id/profile_edit_text_3"
             android:layout_width="match_parent"
-            android:layout_height="@dimen/heigh_editText"
+            android:layout_height="@dimen/height_editText"
             android:layout_marginLeft="@dimen/margin_edit_text"
             android:layout_marginTop="@dimen/margin_between_elements"
             android:layout_marginRight="@dimen/margin_edit_text"

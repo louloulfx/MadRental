@@ -2,8 +2,8 @@
 <resources>
 
     <!-- Size Elements -->
-    <dimen name="heigh_btn">50dp</dimen>
-    <dimen name="heigh_editText">45dp</dimen>
+    <dimen name="height_btn">50dp</dimen>
+    <dimen name="height_editText">45dp</dimen>
 
     <!-- Margin & Padding -->
     <dimen name="margin_between_elements">15dp</dimen>
