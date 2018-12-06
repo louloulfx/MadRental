@@ -1,9 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Res1Activity">
 
-</android.support.constraint.ConstraintLayout>
+    <Button
+        android:id="@+id/profile_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin_button"
+        android:layout_marginTop="@dimen/margin_profile_title"
+        android:layout_marginRight="@dimen/margin_button"
+        android:background="@drawable/bouton"
+        android:text="@string/brofile_button"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="@dimen/btn_text_size" />
+
+</ScrollView>

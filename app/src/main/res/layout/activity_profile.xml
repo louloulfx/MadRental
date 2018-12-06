@@ -1,66 +1,81 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".ProfileActivity">
 
-    <ScrollView
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        tools:layout_editor_absoluteX="146dp"
-        tools:layout_editor_absoluteY="16dp">
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
+        <TextView
+            android:id="@+id/profile_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/profile_title_margin"
+            android:layout_marginTop="@dimen/margin_profile_title"
+            android:layout_marginRight="@dimen/profile_title_margin"
+            android:layout_marginBottom="@dimen/margin_profile_title"
             android:gravity="center"
-            android:orientation="vertical">
+            android:text="@string/profile_text"
+            android:textColor="@color/dark"
+            android:textSize="@dimen/textview_size"
+            app:layout_constraintBottom_toTopOf="@+id/profile_edit_text_1" />
 
-            <TextView
-                android:id="@+id/profile_textview"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/margin_profile_title"
-                android:layout_marginBottom="@dimen/margin_profile_title"
-                android:text="@string/profile_text"
-                android:textSize="@dimen/btn_text_size"
-                android:textColor="@color/dark"
-                app:layout_constraintBottom_toTopOf="@+id/profile_edit_text_1" />
+        <EditText
+            android:id="@+id/profile_edit_text_1"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/heigh_editText"
+            android:layout_marginLeft="@dimen/margin_edit_text"
+            android:layout_marginTop="@dimen/margin_between_elements"
+            android:layout_marginRight="@dimen/margin_edit_text"
+            android:background="@drawable/edit_text"
+            android:hint="@string/profile_edittext1"
+            android:paddingLeft="@dimen/padding_edit_text"
+            android:paddingRight="@dimen/padding_edit_text"
+            android:textSize="@dimen/editText_size" />
 
-            <EditText
-                android:id="@+id/profile_edit_text_1"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:background="@drawable/edit_text"
-                android:text="@string/profile_edittext1" />
+        <EditText
+            android:id="@+id/profile_edit_text_2"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/heigh_editText"
+            android:layout_marginLeft="@dimen/margin_edit_text"
+            android:layout_marginTop="@dimen/margin_between_elements"
+            android:layout_marginRight="@dimen/margin_edit_text"
+            android:background="@drawable/edit_text"
+            android:hint="@string/profile_edittext2"
+            android:paddingLeft="@dimen/padding_edit_text"
+            android:paddingRight="@dimen/padding_edit_text"
+            android:textSize="@dimen/editText_size" />
 
-            <EditText
-                android:id="@+id/profile_edit_text_2"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="15dp"
-                android:background="@drawable/edit_text"
-                android:text="@string/profile_edittext2" />
+        <EditText
+            android:id="@+id/profile_edit_text_3"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/heigh_editText"
+            android:layout_marginLeft="@dimen/margin_edit_text"
+            android:layout_marginTop="@dimen/margin_between_elements"
+            android:layout_marginRight="@dimen/margin_edit_text"
+            android:background="@drawable/edit_text"
+            android:hint="@string/profile_edittext3"
+            android:paddingLeft="@dimen/padding_edit_text"
+            android:paddingRight="@dimen/padding_edit_text"
+            android:textSize="@dimen/editText_size" />
 
-            <EditText
-                android:id="@+id/profile_edit_text_3"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="15dp"
-                android:background="@drawable/edit_text"
-                android:text="@string/profile_edittext3" />
-
-            <Button
-                android:id="@+id/profile_button"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:background="@drawable/bouton"
-                android:textSize="@dimen/btn_text_size"
-                android:layout_marginTop="50dp"
-                android:text="@string/brofile_button"
-                android:textColor="@color/white" />
-        </LinearLayout>
-    </ScrollView>
-</android.support.constraint.ConstraintLayout>
+        <Button
+            android:id="@+id/profile_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_button"
+            android:layout_marginTop="@dimen/margin_profile_title"
+            android:layout_marginRight="@dimen/margin_button"
+            android:background="@drawable/bouton"
+            android:text="@string/brofile_button"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="@dimen/btn_text_size" />
+    </LinearLayout>
+</ScrollView>
