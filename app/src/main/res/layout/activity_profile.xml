@@ -20,9 +20,12 @@
 
             <TextView
                 android:id="@+id/profile_textview"
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_profile_title"
+                android:layout_marginBottom="@dimen/margin_profile_title"
                 android:text="@string/profile_text"
+                android:textSize="@dimen/btn_text_size"
                 android:textColor="@color/dark"
                 app:layout_constraintBottom_toTopOf="@+id/profile_edit_text_1" />
 
@@ -37,6 +40,7 @@
                 android:id="@+id/profile_edit_text_2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
                 android:background="@drawable/edit_text"
                 android:text="@string/profile_edittext2" />
 
@@ -44,6 +48,7 @@
                 android:id="@+id/profile_edit_text_3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
                 android:background="@drawable/edit_text"
                 android:text="@string/profile_edittext3" />
 
@@ -52,6 +57,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@drawable/bouton"
+                android:textSize="@dimen/btn_text_size"
+                android:layout_marginTop="50dp"
                 android:text="@string/brofile_button"
                 android:textColor="@color/white" />
         </LinearLayout>
