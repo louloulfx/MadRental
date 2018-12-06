@@ -46,12 +46,16 @@
             android:layout_height="wrap_content"
             android:background="@color/grey"
             android:gravity="center"
-            android:orientation="vertical">
+            android:orientation="vertical"
+            android:paddingTop="@dimen/options_box_padding"
+            android:layout_marginTop="@dimen/options_box_margin">
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Options"
+                android:text="@string/options_title"
+                android:textSize="@dimen/options_title_size"
+                android:textStyle="bold"
                 android:textColor="@color/dark" />
 
             <LinearLayout
@@ -60,17 +64,19 @@
                 android:layout_marginLeft="60dp"
                 android:orientation="horizontal"
                 android:paddingTop="10dp"
-                android:paddingBottom="10dp">
+                android:paddingBottom="5dp">
 
                 <Switch
                     android:id="@+id/switch1"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content" />
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/margin_switch"/>
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Mitrailleuse : 29 €"
+                    android:text="@string/options_element_1"
+                    android:textSize="@dimen/options_element_size"
                     android:textColor="@color/dark" />
             </LinearLayout>
 
@@ -79,18 +85,20 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="60dp"
                 android:orientation="horizontal"
-                android:paddingTop="10dp"
-                android:paddingBottom="10dp">
+                android:paddingTop="5dp"
+                android:paddingBottom="15dp">
 
                 <Switch
                     android:id="@+id/switch2"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content" />
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/margin_switch"/>
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Lance-flamme : 49 €"
+                    android:text="@string/options_element_2"
+                    android:textSize="@dimen/options_element_size"
                     android:textColor="@color/dark" />
             </LinearLayout>
         </LinearLayout>
