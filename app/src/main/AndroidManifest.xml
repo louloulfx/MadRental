@@ -16,11 +16,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".ReservationsActivity" />
-        <activity android:name=".Res1Activity" />
+        <activity android:name=".ReservationsActivity" android:label="Mes réservations" android:parentActivityName=".MainActivity" />
+        <activity android:name=".Res1Activity" android:label="Réservation - étape 1/2" android:parentActivityName=".SearchActivity" />
         <activity android:name=".ProfileActivity" android:label="Mon Profil" android:parentActivityName=".MainActivity"/>
-        <activity android:name=".SearchActivity" />
-        <activity android:name=".Res2Activity" />
+        <activity android:name=".SearchActivity" android:label="Recherche de véhicule" android:parentActivityName=".MainActivity" />
+        <activity android:name=".Res2Activity" android:label="Réservation - étape 2/2" android:parentActivityName=".Res1Activity"/>
     </application>
 
 </manifest>
