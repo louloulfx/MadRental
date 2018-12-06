@@ -19,4 +19,10 @@
     <!-- Reservation 1/2 page -->
     <string name="res1_button">Suivant</string>
 
+    <!-- RESERVATION 2/2 -->
+    <string name="title_res2">Merci de saisir ici vos demandes spécifiques :</string>
+    <string name="edit_text_your_message">Votre message...</string>
+    <string name="final_price">Prix final : </string>
+    <string name="btn_valider">Valider</string>
+
 </resources>
