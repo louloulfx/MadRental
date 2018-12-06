@@ -12,7 +12,7 @@
         
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:gravity="center"
             android:orientation="vertical">
 
@@ -32,7 +32,7 @@
             <Button
                 android:id="@+id/Btn-Reservations"
                 android:layout_width="match_parent"
-                android:layout_height="@dimen/heigh_btn"
+                android:layout_height="@dimen/height_btn"
                 android:text="@string/btn_res_name"
                 android:textSize="@dimen/btn_text_size"
                 android:textColor="@color/white"
@@ -44,7 +44,7 @@
             <Button
                 android:id="@+id/Btn-Profile"
                 android:layout_width="match_parent"
-                android:layout_height="@dimen/heigh_btn"
+                android:layout_height="@dimen/height_btn"
                 android:text="@string/btn_profile_name"
                 android:textSize="@dimen/btn_text_size"
                 android:textColor="@color/white"
@@ -67,9 +67,10 @@
             <EditText
                 android:id="@+id/Start-Date"
                 android:layout_width="match_parent"
-                android:layout_height="@dimen/heigh_editText"
+                android:layout_height="@dimen/height_editText"
                 android:hint="@string/edit_text_start_name"
                 android:textSize="@dimen/editText_size"
+                android:inputType="date"
                 android:layout_marginLeft="@dimen/margin_edit_text"
                 android:layout_marginRight="@dimen/margin_edit_text"
                 android:paddingLeft="@dimen/padding_edit_text"
@@ -80,9 +81,10 @@
             <EditText
                 android:id="@+id/End-Date"
                 android:layout_width="match_parent"
-                android:layout_height="@dimen/heigh_editText"
+                android:layout_height="@dimen/height_editText"
                 android:hint="@string/edit_text_end_name"
                 android:textSize="@dimen/editText_size"
+                android:inputType="date"
                 android:layout_marginLeft="@dimen/margin_edit_text"
                 android:layout_marginRight="@dimen/margin_edit_text"
                 android:paddingLeft="@dimen/padding_edit_text"
@@ -92,7 +94,7 @@
 
             <Button
                 android:layout_width="match_parent"
-                android:layout_height="@dimen/heigh_btn"
+                android:layout_height="@dimen/height_btn"
                 android:text="@string/btn_search_name"
                 android:textSize="@dimen/btn_text_size"
                 android:textColor="@color/white"

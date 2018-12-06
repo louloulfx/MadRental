@@ -2,8 +2,8 @@
 <resources>
 
     <!-- Size Elements -->
-    <dimen name="heigh_btn">50dp</dimen>
-    <dimen name="heigh_editText">45dp</dimen>
+    <dimen name="height_btn">50dp</dimen>
+    <dimen name="height_editText">45dp</dimen>
 
     <!-- Margin & Padding -->
     <dimen name="margin_between_elements">15dp</dimen>
@@ -14,9 +14,9 @@
     <dimen name="margin_search_area">50dp</dimen>
 
     <!-- FONT SIZE -->
-    <dimen name="main_title_size">35dp</dimen>
-    <dimen name="secondary_title_size">19dp</dimen>
-    <dimen name="btn_text_size">25dp</dimen>
-    <dimen name="editText_size">20dp</dimen>
+    <dimen name="main_title_size">35sp</dimen>
+    <dimen name="secondary_title_size">19sp</dimen>
+    <dimen name="btn_text_size">25sp</dimen>
+    <dimen name="editText_size">20sp</dimen>
 
 </resources>
