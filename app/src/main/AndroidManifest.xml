@@ -18,7 +18,7 @@
         </activity>
         <activity android:name=".ReservationsActivity" />
         <activity android:name=".Res1Activity" />
-        <activity android:name=".ProfileActivity" />
+        <activity android:name=".ProfileActivity" android:label="Mon Profil" android:parentActivityName=".MainActivity"/>
         <activity android:name=".SearchActivity" />
         <activity android:name=".Res2Activity" />
     </application>

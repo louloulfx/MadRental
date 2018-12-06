@@ -12,12 +12,41 @@
         android:gravity="center"
         android:orientation="vertical">
 
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Buggy"
+            android:textSize="@dimen/textview_size"
+            android:textColor="@color/dark" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Prix :"
+            android:textColor="@color/dark" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Catégorie :"
+            android:textColor="@color/dark" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Equipements :"
+            android:textColor="@color/dark" />
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:background="@color/grey"
             android:gravity="center"
-            android:orientation="vertical"
-            android:background="@color/grey">
+            android:orientation="vertical">
 
             <TextView
                 android:layout_width="wrap_content"
