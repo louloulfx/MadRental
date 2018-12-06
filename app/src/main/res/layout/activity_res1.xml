@@ -108,7 +108,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="@dimen/margin_button"
-            android:layout_marginTop="@dimen/margin_profile_title"
+            android:layout_marginTop="@dimen/margin_btn_valider_res"
             android:layout_marginRight="@dimen/margin_button"
             android:background="@drawable/bouton"
             android:text="@string/res1_button"
