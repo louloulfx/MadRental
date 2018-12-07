@@ -26,73 +26,73 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:gravity="center">
 
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_gravity="left"
+                android:layout_marginRight="35dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Prix :"
+                    android:textColor="@color/dark"
+                    android:layout_gravity="left"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Catégorie :"
+                    android:textColor="@color/dark"
+                    android:layout_gravity="left"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Equipements :"
+                    android:textColor="@color/dark"
+                    android:layout_gravity="left"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="right"
+                android:orientation="vertical"
+                android:layout_marginLeft="35dp">
+
+                <TextView
+                    android:id="@+id/vehicule_price"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="' ici le prix '"
+                    android:textColor="@color/dark"
+                    android:layout_gravity="right"/>
+
+                <TextView
+                    android:id="@+id/vehicule_category"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="' ici la catégorie '"
+                    android:textColor="@color/dark"
+                    android:layout_gravity="right"/>
+
+                <TextView
+                    android:id="@+id/equipements"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="' ici les équipements '"
+                    android:textColor="@color/dark"
+                    android:layout_gravity="right"/>
+
+            </LinearLayout>
 
         </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:orientation="vertical"
-            android:layout_marginLeft="40dp"
-            android:layout_marginRight="40dp">
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Prix :"
-                android:textColor="@color/dark"
-                android:layout_gravity="left"/>
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Catégorie :"
-                android:textColor="@color/dark"
-                android:layout_gravity="left"/>
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Equipements :"
-                android:textColor="@color/dark"
-                android:layout_gravity="left"/>
-
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:orientation="vertical"
-            android:layout_marginRight="40dp">
-
-            <TextView
-                android:id="@+id/vehicule_price"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="' ici le prix '"
-                android:textColor="@color/dark"
-                android:layout_gravity="right"/>
-
-            <TextView
-                android:id="@+id/vehicule_category"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="' ici la catégorie '"
-                android:textColor="@color/dark"
-                android:layout_gravity="right"/>
-
-            <TextView
-                android:id="@+id/equipements"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="' ici les équipements '"
-                android:textColor="@color/dark"
-                android:layout_gravity="right"/>
-
-        </LinearLayout>
-
 
         <LinearLayout
             android:layout_width="match_parent"
