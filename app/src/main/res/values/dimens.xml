@@ -16,6 +16,7 @@
     <dimen name="margin_button">30dp</dimen>
     <dimen name="margin_search_area">50dp</dimen>
     <dimen name="profile_title_margin">40dp</dimen>
+    <dimen name="informations_box_margin">30dp</dimen>
     <dimen name="margin_btn_valider_res">20dp</dimen>
     <dimen name="options_box_margin">30dp</dimen>
     <dimen name="options_box_padding">15dp</dimen>

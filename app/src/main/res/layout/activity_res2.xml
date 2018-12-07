@@ -33,6 +33,7 @@
             android:layout_marginRight="@dimen/margin_edit_text"
             android:background="@drawable/edit_text_message"
             android:hint="@string/edit_text_your_message"
+            android:inputType="textMultiLine"
             android:paddingLeft="@dimen/padding_edit_text"
             android:paddingRight="@dimen/padding_edit_text"
             android:textSize="@dimen/editText_size" />

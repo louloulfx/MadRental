@@ -27,33 +27,37 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:gravity="center">
+            android:gravity="center"
+            android:layout_marginTop="@dimen/informations_box_margin">
 
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:orientation="vertical"
                 android:layout_gravity="left"
-                android:layout_marginRight="35dp">
+                android:layout_marginRight="30dp">
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Prix :"
+                    android:text="@string/price_text"
+                    android:textSize="@dimen/options_element_size"
                     android:textColor="@color/dark"
                     android:layout_gravity="left"/>
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Catégorie :"
+                    android:text="@string/category_text"
+                    android:textSize="@dimen/options_element_size"
                     android:textColor="@color/dark"
                     android:layout_gravity="left"/>
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Equipements :"
+                    android:text="@string/gear_text"
+                    android:textSize="@dimen/options_element_size"
                     android:textColor="@color/dark"
                     android:layout_gravity="left"/>
 
@@ -64,13 +68,14 @@
                 android:layout_height="match_parent"
                 android:layout_gravity="right"
                 android:orientation="vertical"
-                android:layout_marginLeft="35dp">
+                android:layout_marginLeft="30dp">
 
                 <TextView
                     android:id="@+id/vehicule_price"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="' ici le prix '"
+                    android:textSize="@dimen/options_element_size"
                     android:textColor="@color/dark"
                     android:layout_gravity="right"/>
 
@@ -79,14 +84,16 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="' ici la catégorie '"
+                    android:textSize="@dimen/options_element_size"
                     android:textColor="@color/dark"
                     android:layout_gravity="right"/>
 
                 <TextView
-                    android:id="@+id/equipements"
+                    android:id="@+id/equipements_value"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="' ici les équipements '"
+                    android:textSize="@dimen/options_element_size"
                     android:textColor="@color/dark"
                     android:layout_gravity="right"/>
 
