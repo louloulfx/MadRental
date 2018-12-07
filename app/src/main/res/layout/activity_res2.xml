@@ -14,15 +14,15 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/res2_title_margin"
             android:layout_marginTop="@dimen/margin_search_area"
+            android:layout_marginRight="@dimen/res2_title_margin"
+            android:gravity="center"
             android:text="@string/title_res2"
             android:textColor="@color/dark"
             android:textSize="@dimen/title_res2_size"
-            android:gravity="center"
             app:layout_constraintLeft_toLeftOf="parent"
-            app:layout_constraintRight_toRightOf="parent"
-            android:layout_marginLeft="@dimen/res2_title_margin"
-            android:layout_marginRight="@dimen/res2_title_margin"/>
+            app:layout_constraintRight_toRightOf="parent" />
 
         <EditText
             android:id="@+id/message"
@@ -40,30 +40,26 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_marginTop="@dimen/margin_search_area">
 
             <TextView
                 android:id="@+id/final_price"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/margin_search_area"
+                android:layout_marginRight="@dimen/margin_switch"
                 android:text="@string/final_price"
                 android:textColor="@color/dark"
-                android:textSize="@dimen/secondary_title_size"
-                app:layout_constraintLeft_toLeftOf="parent"
-                app:layout_constraintRight_toRightOf="parent" />
+                android:textSize="@dimen/secondary_title_size" />
 
             <TextView
-                android:id="@+id/price_value"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/margin_search_area"
                 android:text=" 'montant ici' "
                 android:textColor="@color/dark"
-                android:textSize="@dimen/secondary_title_size"
-                app:layout_constraintLeft_toLeftOf="parent"
-                app:layout_constraintRight_toRightOf="parent" />
-
+                android:textSize="@dimen/secondary_title_size" />
         </LinearLayout>
 
         <Button
