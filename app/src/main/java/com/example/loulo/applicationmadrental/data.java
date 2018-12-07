@@ -18,6 +18,7 @@ public class data extends AsyncTask<Void,Void,Void> {
     String data = "";
     String dataParsed = "";
     String singleParsed = "";
+    String promoParsed = "";
 
     @Override
     protected Void doInBackground(Void... voids) {
@@ -35,12 +36,13 @@ public class data extends AsyncTask<Void,Void,Void> {
 
             JSONArray JA = new JSONArray(data);
             for (int  i =0; i < JA.length(); i++) {
+
                 JSONObject JO = (JSONObject) JA.get(i);
                 singleParsed =  "Nom : " + JO.get("nom") + "\n" +
-                                "Prix : " + JO.get("prixjournalierbase") + " € / Jour" + "\n" +
-                                "Promotion : " + JO.get("promotion") + "\n";
+                                "Prix : " + JO.get("prixjournalierbase") + " € / Jour" + "\n";
+                promoParsed = "Promotion : " + JO.get("promotion") + "\n";
 
-                dataParsed = dataParsed + singleParsed + "\n";
+                dataParsed = dataParsed + singleParsed + promoParsed + "\n";
             }
 
         } catch (MalformedURLException e) {

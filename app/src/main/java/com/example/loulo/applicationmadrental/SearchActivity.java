@@ -8,25 +8,18 @@ import android.widget.TextView;
 
 public class SearchActivity extends AppCompatActivity {
 
-    Button click;
     public static TextView data;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_search);
-
-        click = findViewById(R.id.btn);
         data = (TextView) findViewById(R.id.text_view_result);
+        data process = new data();
+        process.execute();
 
-        click.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
 
-                data process = new data();
-                process.execute();
 
-            }
-        });
     }
 }
+
