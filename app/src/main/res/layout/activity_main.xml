@@ -35,7 +35,8 @@
             android:text="@string/btn_res_name"
             android:textAllCaps="false"
             android:textColor="@color/white"
-            android:textSize="@dimen/btn_text_size" />
+            android:textSize="@dimen/btn_text_size"
+            />
 
         <Button
             android:id="@+id/Btn-Profile"
@@ -97,6 +98,7 @@
             android:layout_marginRight="@dimen/margin_button"
             android:background="@drawable/bouton"
             android:text="@string/btn_search_name"
+            android:onClick="SearchActivity"
             android:textAllCaps="false"
             android:textColor="@color/white"
             android:textSize="@dimen/btn_text_size" />

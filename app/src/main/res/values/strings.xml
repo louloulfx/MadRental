@@ -28,4 +28,12 @@
     <string name="final_price">Prix final : </string>
     <string name="btn_valider">Valider</string>
 
+    <!-- SEARCH PAGE -->
+    <string name="btn_filtre">Filtre</string>
+    <!-- Fragment -->
+    <string name="recherchefragment">En promotion uniquement</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
 </resources>
