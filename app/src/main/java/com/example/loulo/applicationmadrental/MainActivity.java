@@ -13,8 +13,8 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-/*
-        TextView tx = (TextView)findViewById(R.id.Main_Title);
+
+       /* TextView tx = (TextView)findViewById(R.id.Main_Title);
         Typeface custom_font = Typeface.createFromAsset(getAssets(),  "fonts/RacingSansOne-Regular.ttf");
         tx.setTypeface(custom_font);*/
 
@@ -23,6 +23,10 @@ public class MainActivity extends AppCompatActivity {
 
     public void ProfileActivity (View View) {
         startActivity(new Intent(this, ProfileActivity.class));
+    }
+
+    public void SearchActivity (View View) {
+        startActivity(new Intent(this, SearchActivity.class));
     }
 
 }

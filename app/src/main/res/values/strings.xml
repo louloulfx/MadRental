@@ -17,6 +17,9 @@
     <string name="brofile_button">Valider</string>
 
     <!-- RESERVATION 1/2 page -->
+    <string name="price_text">Prix :</string>
+    <string name="category_text">Catégorie :</string>
+    <string name="gear_text">Équipements :</string>
     <string name="options_title">OPTIONS</string>
     <string name="options_element_1">Mitrailleuse : 29 €</string>
     <string name="options_element_2">Lance-flamme : 49 €</string>
