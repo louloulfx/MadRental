@@ -26,6 +26,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent">
 
@@ -43,9 +44,9 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp"
             android:gravity="center"
-            android:orientation="horizontal"
-            android:layout_marginBottom="30dp">
+            android:orientation="horizontal">
 
             <Switch
                 android:id="@+id/switch3"
@@ -61,6 +62,7 @@
                 android:textSize="@dimen/options_element_size" />
         </LinearLayout>
     </LinearLayout>
+
 </RelativeLayout>
 
 
