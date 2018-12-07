@@ -22,8 +22,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:orientation="vertical"
-        android:background="@color/white"
-        android:layout_alignParentBottom="true">
+        android:background="@color/white">
 
         <TextView
             android:id="@+id/Btn_filtre"
