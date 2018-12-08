@@ -18,8 +18,6 @@ public class SearchActivity extends AppCompatActivity {
         data process = new data();
         process.execute();
 
-
-
     }
 }
 
