@@ -38,9 +38,8 @@ public class data extends AsyncTask<Void,Void,Void> {
             for (int  i =0; i < JA.length(); i++) {
 
                 JSONObject JO = (JSONObject) JA.get(i);
-                singleParsed =  "Nom : " + JO.get("nom") + "\n" +
-                                "Prix : " + JO.get("prixjournalierbase") + " € / Jour" + "\n";
-                promoParsed = "Promotion : " + JO.get("promotion") + "\n";
+                singleParsed =  JO.get("nom") + " - " + JO.get("prixjournalierbase") + " € / Jour" + "\n";
+                promoParsed = "Promotion : " + JO.get("promotion") + "%" + "\n";
 
                 dataParsed = dataParsed + singleParsed + promoParsed + "\n";
             }
