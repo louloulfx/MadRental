@@ -18,6 +18,7 @@ public class data extends AsyncTask<Void,Void,Void> {
     String data = "";
     String dataParsed = "";
     String singleParsed = "";
+    String secondParsed = "";
     String promoParsed = "";
 
     @Override
@@ -38,7 +39,9 @@ public class data extends AsyncTask<Void,Void,Void> {
             for (int  i =0; i < JA.length(); i++) {
 
                 JSONObject JO = (JSONObject) JA.get(i);
-                singleParsed =  JO.get("nom") + " - " + JO.get("prixjournalierbase") + " € / Jour" + "\n";
+                singleParsed =  JO.get("nom") + "\n"
+                        + JO.get("prixjournalierbase") + " € / jour" + "\n"
+                        + "Catégorie CO2 : "+ JO.get("categorieco2") + "\n";
                 promoParsed = "Promotion : " + JO.get("promotion") + "%" + "\n";
 
                 dataParsed = dataParsed + singleParsed + promoParsed + "\n";
