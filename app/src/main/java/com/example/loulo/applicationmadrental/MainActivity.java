@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         /* tx = findViewById(R.id.Main_Title);
-        Typeface custom_font = Typeface.createFromAsset(getAssets(),  "fonts/RacingSansOne-Regular.ttf");
+        Typeface custom_font = Typeface.createFromAsset(getAssets(),"fonts/RacingSansOne-Regular.ttf");
         tx.setTypeface(custom_font); */
 
     }
