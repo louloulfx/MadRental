@@ -61,7 +61,7 @@
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent" />
 
-        <EditText
+        <com.santalu.maskedittext.MaskEditText
             android:id="@+id/Start-Date"
             android:layout_width="match_parent"
             android:layout_height="@dimen/height_editText"
@@ -71,11 +71,13 @@
             android:background="@drawable/edit_text"
             android:hint="@string/edit_text_start_name"
             android:inputType="date"
+
             android:paddingLeft="@dimen/padding_edit_text"
             android:paddingRight="@dimen/padding_edit_text"
-            android:textSize="@dimen/editText_size" />
+            android:textSize="@dimen/editText_size"
+            app:met_mask="##/##/####" />
 
-        <EditText
+        <com.santalu.maskedittext.MaskEditText
             android:id="@+id/End-Date"
             android:layout_width="match_parent"
             android:layout_height="@dimen/height_editText"
@@ -87,7 +89,8 @@
             android:inputType="date"
             android:paddingLeft="@dimen/padding_edit_text"
             android:paddingRight="@dimen/padding_edit_text"
-            android:textSize="@dimen/editText_size" />
+            android:textSize="@dimen/editText_size"
+            app:met_mask="##/##/####" />
 
         <Button
             android:layout_width="match_parent"
