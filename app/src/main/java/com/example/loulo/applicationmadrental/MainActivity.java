@@ -9,14 +9,16 @@ import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
+    /* TextView tx; */
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-       /* TextView tx = (TextView)findViewById(R.id.Main_Title);
+        /* tx = findViewById(R.id.Main_Title);
         Typeface custom_font = Typeface.createFromAsset(getAssets(),  "fonts/RacingSansOne-Regular.ttf");
-        tx.setTypeface(custom_font);*/
+        tx.setTypeface(custom_font); */
 
     }
 

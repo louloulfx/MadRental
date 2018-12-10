@@ -22,6 +22,7 @@
     <dimen name="options_box_padding">15dp</dimen>
     <dimen name="margin_switch">15dp</dimen>
     <dimen name="res2_title_margin">35dp</dimen>
+    <dimen name="vehicule_info_margin">10dp</dimen>
 
     <!-- FONT SIZE -->
     <dimen name="main_title_size">35sp</dimen>

@@ -18,7 +18,6 @@ public class data extends AsyncTask<Void,Void,Void> {
     String data = "";
     String dataParsed = "";
     String singleParsed = "";
-    String secondParsed = "";
     String promoParsed = "";
 
     @Override
