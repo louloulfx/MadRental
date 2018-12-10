@@ -26,6 +26,7 @@
             android:textSize="@dimen/textview_size"
             app:layout_constraintBottom_toTopOf="@+id/profile_edit_text_1" />
 
+
         <EditText
             android:id="@+id/profile_edit_text_1"
             android:layout_width="match_parent"
