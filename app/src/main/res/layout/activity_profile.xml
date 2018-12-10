@@ -53,7 +53,7 @@
             android:paddingRight="@dimen/padding_edit_text"
             android:textSize="@dimen/editText_size" />
 
-        <EditText
+        <com.santalu.maskedittext.MaskEditText
             android:id="@+id/profile_edit_text_3"
             android:layout_width="match_parent"
             android:layout_height="@dimen/height_editText"
@@ -62,10 +62,11 @@
             android:layout_marginRight="@dimen/margin_edit_text"
             android:background="@drawable/edit_text"
             android:hint="@string/profile_edittext3"
-            android:inputType="date"
+            android:inputType="number"
             android:paddingLeft="@dimen/padding_edit_text"
             android:paddingRight="@dimen/padding_edit_text"
-            android:textSize="@dimen/editText_size" />
+            android:textSize="@dimen/editText_size"
+            app:met_mask="##/##/####" />
 
         <Button
             android:id="@+id/profile_button"
