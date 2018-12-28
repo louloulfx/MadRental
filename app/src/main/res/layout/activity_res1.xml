@@ -13,16 +13,22 @@
         android:orientation="vertical">
 
         <TextView
-            android:id="@+id/vehicule_name"
+            android:id="@+id/r_vehicule_name"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Buggy"
             android:textSize="@dimen/textview_size"
-            android:textColor="@color/dark" />
+            android:textColor="@color/dark"
+            android:layout_marginTop="10dp"/>
 
         <ImageView
+            android:id="@+id/r_vehicule_image"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"/>
+            android:layout_height="200dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="55dp"
+            android:layout_marginRight="55dp"
+            android:background="@drawable/loading_shape"/>
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -71,7 +77,7 @@
                 android:layout_marginLeft="30dp">
 
                 <TextView
-                    android:id="@+id/vehicule_price"
+                    android:id="@+id/r_vehicule_price"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="' ici le prix '"
@@ -80,7 +86,7 @@
                     android:layout_gravity="right"/>
 
                 <TextView
-                    android:id="@+id/vehicule_category"
+                    android:id="@+id/r_vehicule_category"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="' ici la catégorie '"
@@ -89,7 +95,7 @@
                     android:layout_gravity="right"/>
 
                 <TextView
-                    android:id="@+id/equipements_value"
+                    android:id="@+id/r_equipements_value"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="' ici les équipements '"

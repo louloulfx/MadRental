@@ -22,7 +22,9 @@
         <activity android:name=".Res1Activity" android:label="Réservation - étape 1/2" android:parentActivityName=".SearchActivity" />
         <activity android:name=".ProfileActivity" android:label="Mon Profil" android:parentActivityName=".MainActivity"/>
         <activity android:name=".SearchActivity" android:label="Recherche de véhicule" android:parentActivityName=".MainActivity" />
+        <activity android:name=".VehiculeListActivity" android:label="Recherche de véhicule" android:parentActivityName=".VehiculeListActivity"/>
         <activity android:name=".Res2Activity" android:label="Réservation - étape 2/2" android:parentActivityName=".Res1Activity"/>
+
     </application>
 
 </manifest>

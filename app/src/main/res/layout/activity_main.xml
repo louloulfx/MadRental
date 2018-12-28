@@ -99,7 +99,7 @@
             android:layout_marginTop="@dimen/margin_between_elements"
             android:layout_marginRight="@dimen/margin_button"
             android:background="@drawable/bouton"
-            android:onClick="SearchActivity"
+            android:onClick="VehiculeListActivity"
             android:text="@string/btn_search_name"
             android:textAllCaps="false"
             android:textColor="@color/white"

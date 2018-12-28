@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="120dp"
+    android:padding="8dp"
+    android:layout_marginTop="5dp"
+    android:id="@+id/container">
+
+    <ImageView
+        android:id="@+id/vehicule_image"
+        android:layout_width="180dp"
+        android:layout_height="match_parent"
+        android:background="@drawable/loading_shape"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginLeft="10dp">
+
+        <TextView
+            android:id="@+id/vehicule_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nom du vehicule"
+            android:textStyle="bold"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:id="@+id/vehicule_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Prix journalier"
+            android:textSize="15sp"
+            android:layout_marginTop="5dp"/>
+
+        <TextView
+            android:id="@+id/vehicule_category"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Catégorie CO2"
+            android:textSize="15sp"/>
+
+        <TextView
+            android:id="@+id/vehicule_promotion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Promotion"
+            android:textSize="15sp"/>
+
+    </LinearLayout>
+
+</LinearLayout>
