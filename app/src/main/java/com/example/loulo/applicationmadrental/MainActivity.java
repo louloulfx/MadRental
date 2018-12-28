@@ -7,6 +7,8 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
 
+import java.util.Calendar;
+
 public class MainActivity extends AppCompatActivity {
 
     /* TextView tx; */
@@ -29,6 +31,10 @@ public class MainActivity extends AppCompatActivity {
 
     public void SearchActivity (View View) {
         startActivity(new Intent(this, SearchActivity.class));
+    }
+
+    public void VehiculeListActivity (View view) {
+        startActivity(new Intent(this, VehiculeListActivity.class));
     }
 
 }

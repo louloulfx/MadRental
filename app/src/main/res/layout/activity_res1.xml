@@ -16,7 +16,7 @@
             android:id="@+id/vehicule_name"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Buggy"
+            android:hint="Buggy"
             android:textSize="@dimen/textview_size"
             android:textColor="@color/dark" />
 
@@ -74,7 +74,7 @@
                     android:id="@+id/vehicule_price"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="' ici le prix '"
+                    android:hint="' ici le prix '"
                     android:textSize="@dimen/options_element_size"
                     android:textColor="@color/dark"
                     android:layout_gravity="right"/>
@@ -83,7 +83,7 @@
                     android:id="@+id/vehicule_category"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="' ici la catégorie '"
+                    android:hint="' ici la catégorie '"
                     android:textSize="@dimen/options_element_size"
                     android:textColor="@color/dark"
                     android:layout_gravity="right"/>
@@ -92,7 +92,7 @@
                     android:id="@+id/equipements_value"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="' ici les équipements '"
+                    android:hint="' ici les équipements '"
                     android:textSize="@dimen/options_element_size"
                     android:textColor="@color/dark"
                     android:layout_gravity="right"/>
