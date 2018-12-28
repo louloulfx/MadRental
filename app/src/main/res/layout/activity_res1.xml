@@ -176,6 +176,7 @@
             android:layout_marginLeft="@dimen/margin_button"
             android:layout_marginTop="@dimen/margin_btn_valider_res"
             android:layout_marginRight="@dimen/margin_button"
+            android:layout_marginBottom="20dp"
             android:background="@drawable/bouton"
             android:text="@string/res1_button"
             android:textAllCaps="false"
