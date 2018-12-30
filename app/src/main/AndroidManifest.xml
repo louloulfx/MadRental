@@ -11,18 +11,17 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name=".MainActivity" android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".ReservationsActivity" android:label="Mes réservations" android:parentActivityName=".MainActivity" />
-        <activity android:name=".Res1Activity" android:label="Réservation - étape 1/2" android:parentActivityName=".SearchActivity" />
+        <activity android:name=".ReservationsActivity" android:label="Mes réservations" android:parentActivityName=".MainActivity"/>
         <activity android:name=".ProfileActivity" android:label="Mon Profil" android:parentActivityName=".MainActivity"/>
-        <activity android:name=".SearchActivity" android:label="Recherche de véhicule" android:parentActivityName=".MainActivity" />
         <activity android:name=".VehiculeListActivity" android:label="Recherche de véhicule" android:parentActivityName=".VehiculeListActivity"/>
+        <activity android:name=".Res1Activity" android:label="Réservation - étape 1/2" android:parentActivityName=".VehiculeListActivity"/>
         <activity android:name=".Res2Activity" android:label="Réservation - étape 2/2" android:parentActivityName=".Res1Activity"/>
 
     </application>

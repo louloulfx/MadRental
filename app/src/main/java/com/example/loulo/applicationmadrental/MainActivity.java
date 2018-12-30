@@ -24,15 +24,12 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-
+    // LAUNCH THE ACTIVITY WITH THE PROFILE ACCOUNT OF THE USER
     public void ProfileActivity (View View) {
         startActivity(new Intent(this, ProfileActivity.class));
     }
 
-    public void SearchActivity (View View) {
-        startActivity(new Intent(this, SearchActivity.class));
-    }
-
+    // LAUNCH THE ACTIVITY WITH ALL THE VEHICULES AVAILABLE
     public void VehiculeListActivity (View view) {
         startActivity(new Intent(this, VehiculeListActivity.class));
     }

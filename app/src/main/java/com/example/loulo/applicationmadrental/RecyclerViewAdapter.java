@@ -60,7 +60,7 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapte
     public void onBindViewHolder(MyViewHolder holder, int position) {
 
         holder.tv_nom.setText(mData.get(position).getNom());
-        holder.tv_prixjournalierbase.setText(""+mData.get(position).getPrixjournalierbase()+" € / jour");
+        holder.tv_prixjournalierbase.setText(mData.get(position).getPrixjournalierbase()+" € / jour");
         holder.tv_categorieco2.setText("Catégorie CO2 : "+mData.get(position).getCategorieco2());
         holder.tv_promotion.setText("Promotion : "+mData.get(position).getPromotion()+"%");
 

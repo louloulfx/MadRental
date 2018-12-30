@@ -26,7 +26,8 @@
             android:layout_height="wrap_content"
             android:text="Nom du vehicule"
             android:textStyle="bold"
-            android:textSize="16sp"/>
+            android:textSize="17sp"
+            android:textColor="@color/dark"/>
 
         <TextView
             android:id="@+id/vehicule_price"
