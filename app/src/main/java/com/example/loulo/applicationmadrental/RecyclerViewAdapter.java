@@ -43,10 +43,10 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapte
             public void onClick(View v) {
 
                 Intent i = new Intent(mContext, Res1Activity.class);
-                i.putExtra("vehicule_name",mData.get(viewHolder.getAdapterPosition()).getNom());
-                i.putExtra("vehicule_price",mData.get(viewHolder.getAdapterPosition()).getPrixjournalierbase());
-                i.putExtra("vehicule_category",mData.get(viewHolder.getAdapterPosition()).getCategorieco2());
-                i.putExtra("vehicule_image",mData.get(viewHolder.getAdapterPosition()).getImage());
+                i.putExtra("vehicule_name", mData.get(viewHolder.getAdapterPosition()).getNom());
+                i.putExtra("vehicule_price", mData.get(viewHolder.getAdapterPosition()).getPrixjournalierbase());
+                i.putExtra("vehicule_category", mData.get(viewHolder.getAdapterPosition()).getCategorieco2());
+                i.putExtra("vehicule_image", mData.get(viewHolder.getAdapterPosition()).getImage());
 
                 mContext.startActivity(i);
 
