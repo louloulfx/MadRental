@@ -16,18 +16,16 @@
             android:id="@+id/r_vehicule_name"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Buggy"
+            android:text="Véhicule"
             android:textSize="@dimen/textview_size"
             android:textColor="@color/dark"
             android:layout_marginTop="10dp"/>
 
         <ImageView
             android:id="@+id/r_vehicule_image"
-            android:layout_width="match_parent"
-            android:layout_height="200dp"
+            android:layout_width="250dp"
+            android:layout_height="150dp"
             android:layout_marginTop="10dp"
-            android:layout_marginLeft="55dp"
-            android:layout_marginRight="55dp"
             android:background="@drawable/loading_shape"/>
 
         <LinearLayout
