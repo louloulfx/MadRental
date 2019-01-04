@@ -13,6 +13,8 @@ import android.widget.TextView;
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.request.RequestOptions;
 
+import org.w3c.dom.Text;
+
 import java.util.List;
 
 public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapter.MyViewHolder> {
@@ -43,10 +45,10 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapte
             public void onClick(View v) {
 
                 Intent i = new Intent(mContext, Res1Activity.class);
-                i.putExtra("vehicule_name",mData.get(viewHolder.getAdapterPosition()).getNom());
-                i.putExtra("vehicule_price",mData.get(viewHolder.getAdapterPosition()).getPrixjournalierbase());
-                i.putExtra("vehicule_category",mData.get(viewHolder.getAdapterPosition()).getCategorieco2());
-                i.putExtra("vehicule_image",mData.get(viewHolder.getAdapterPosition()).getImage());
+                i.putExtra("vehicule_name", mData.get(viewHolder.getAdapterPosition()).getNom());
+                i.putExtra("vehicule_price", mData.get(viewHolder.getAdapterPosition()).getPrixjournalierbase());
+                i.putExtra("vehicule_category", mData.get(viewHolder.getAdapterPosition()).getCategorieco2());
+                i.putExtra("vehicule_image", mData.get(viewHolder.getAdapterPosition()).getImage());
 
                 mContext.startActivity(i);
 
@@ -60,7 +62,7 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapte
     public void onBindViewHolder(MyViewHolder holder, int position) {
 
         holder.tv_nom.setText(mData.get(position).getNom());
-        holder.tv_prixjournalierbase.setText(""+mData.get(position).getPrixjournalierbase()+" € / jour");
+        holder.tv_prixjournalierbase.setText(mData.get(position).getPrixjournalierbase()+" € / jour");
         holder.tv_categorieco2.setText("Catégorie CO2 : "+mData.get(position).getCategorieco2());
         holder.tv_promotion.setText("Promotion : "+mData.get(position).getPromotion()+"%");
 
@@ -81,6 +83,7 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapte
         TextView tv_categorieco2;
         TextView tv_promotion;
         ImageView img_image;
+        TextView tv_equipements;
         LinearLayout view_container;
 
         public MyViewHolder(View itemView) {
