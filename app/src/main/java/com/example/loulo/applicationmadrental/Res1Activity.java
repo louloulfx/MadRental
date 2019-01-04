@@ -27,7 +27,6 @@ public class Res1Activity extends AppCompatActivity {
         TextView tv_prix = findViewById(R.id.r_vehicule_price);
         TextView tv_categorie = findViewById(R.id.r_vehicule_category);
 
-
         RequestOptions requestOptions = new RequestOptions().centerCrop().placeholder(R.drawable.loading_shape).error(R.drawable.loading_shape);
 
         tv_nom.setText(nom);

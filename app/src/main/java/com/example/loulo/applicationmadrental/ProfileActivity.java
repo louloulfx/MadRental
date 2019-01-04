@@ -73,6 +73,22 @@ public class ProfileActivity extends AppCompatActivity {
                 String birthDate = dayOfMonth + "/" + month + "/" + year;
                 // Ajout de la date au TextView profile_edit_text_3
                 mDateBirth.setText(birthDate);
+
+                // Calcul de l'âge
+                Calendar cal = Calendar.getInstance();
+                Date today = cal.getTime();
+                cal.set(year, month, dayOfMonth);
+                Date birthday = cal.getTime();
+
+                long dateSubtract = today.getTime() - birthday.getTime();
+                double time = 1000 * 60 * 60 * 24 * 365.25;
+
+                double myAge = dateSubtract/time;
+
+                // Affiche de l'age arrondi inférieur grâce à Floor
+                Toast.makeText(ProfileActivity.this, "Vous avez " + Math.floor(myAge) + " ans.", Toast.LENGTH_LONG).show();
+
+
             }
         };
 
@@ -82,6 +98,8 @@ public class ProfileActivity extends AppCompatActivity {
 
                 Intent intent1 = new Intent(ProfileActivity.this, MainActivity.class);
                 startActivity(intent1);
+
+                Toast.makeText(ProfileActivity.this, "Profil sauvegardé.", Toast.LENGTH_LONG).show();
 
                 saveData();
 
