@@ -6,6 +6,7 @@ import android.preference.PreferenceManager;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.util.Log;
 import android.widget.Toast;
 
 import com.android.volley.RequestQueue;
@@ -58,6 +59,14 @@ public class VehiculeListActivity extends AppCompatActivity {
                         vehicule.setCategorieco2(jsonObject.getString("categorieco2"));
                         vehicule.setPromotion(jsonObject.getInt("promotion"));
                         vehicule.setImage("http://s519716619.onlinehome.fr/exchange/madrental/images/"+jsonObject.getString("image"));
+
+                        // Récupération du JsonObject
+                        String vehiculeEquipements = jsonObject.getString("equipements");
+                        String vehiculeOptions = jsonObject.getString("options");
+                        
+
+                        Toast.makeText(VehiculeListActivity.this, vehiculeEquipements, Toast.LENGTH_LONG).show();
+
                         listVehicule.add(vehicule);
 
                     } catch (JSONException e) {

@@ -20,12 +20,14 @@ public class Res1Activity extends AppCompatActivity {
         String image = getIntent().getExtras().getString("vehicule_image");
         int prixjournalierbase = getIntent().getExtras().getInt("vehicule_price");
         String categorieco2 = getIntent().getExtras().getString("vehicule_category");
+        String equipements = (String) getIntent().getExtras().get("vehicule_equipements");
 
 
         TextView tv_nom = findViewById(R.id.r_vehicule_name);
         ImageView iv_image = findViewById(R.id.r_vehicule_image);
         TextView tv_prix = findViewById(R.id.r_vehicule_price);
         TextView tv_categorie = findViewById(R.id.r_vehicule_category);
+        TextView tv_equipements = findViewById(R.id.r_equipements_value);
 
         RequestOptions requestOptions = new RequestOptions().centerCrop().placeholder(R.drawable.loading_shape).error(R.drawable.loading_shape);
 
@@ -33,6 +35,7 @@ public class Res1Activity extends AppCompatActivity {
         Glide.with(this).load(image).apply(requestOptions).into(iv_image);
         tv_prix.setText(prixjournalierbase+" € / jour");
         tv_categorie.setText(categorieco2);
+        tv_equipements.setText(equipements);
 
     }
 

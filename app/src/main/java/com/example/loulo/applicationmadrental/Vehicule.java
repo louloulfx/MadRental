@@ -1,5 +1,7 @@
 package com.example.loulo.applicationmadrental;
 
+import java.lang.reflect.Array;
+
 public class Vehicule {
 
     private String nom;
@@ -7,19 +9,19 @@ public class Vehicule {
     private String categorieco2;
     private int promotion;
     private String image;
+    private Array equipements;
 
     public Vehicule() {
     }
 
-    public Vehicule(String nom, int prixjournalierbase, String categorieco2, int promotion, String image) {
+    public Vehicule(String nom, int prixjournalierbase, String categorieco2, int promotion, String image, Array equipements) {
         this.nom = nom;
         this.prixjournalierbase = prixjournalierbase;
         this.categorieco2 = categorieco2;
         this.promotion = promotion;
         this.image = image;
+        this.equipements = equipements;
     }
-
-
 
     public String getNom() {
         return nom;
@@ -61,4 +63,11 @@ public class Vehicule {
         this.image = image;
     }
 
+    public Array getEquipements() {
+        return equipements;
+    }
+
+    public void setEquipements(Array equipements) {
+        this.equipements = equipements;
+    }
 }
