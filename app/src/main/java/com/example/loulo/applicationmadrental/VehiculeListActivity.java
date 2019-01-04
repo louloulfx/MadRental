@@ -1,9 +1,12 @@
 package com.example.loulo.applicationmadrental;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.preference.PreferenceManager;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.widget.Toast;
 
 import com.android.volley.RequestQueue;
 import com.android.volley.Response;
@@ -34,6 +37,7 @@ public class VehiculeListActivity extends AppCompatActivity {
         listVehicule = new ArrayList<>();
         recyclerView = findViewById(R.id.recyclerviewid);
         jsonrequest();
+        
     }
 
     private void jsonrequest() {
