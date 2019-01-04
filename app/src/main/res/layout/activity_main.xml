@@ -33,6 +33,7 @@
             android:layout_marginRight="@dimen/margin_button"
             android:background="@drawable/bouton"
             android:text="@string/btn_res_name"
+            android:onClick="ReservationsActivity"
             android:textAllCaps="false"
             android:textColor="@color/white"
             android:textSize="@dimen/btn_text_size" />

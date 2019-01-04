@@ -93,6 +93,10 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
+    public void ReservationsActivity (View view) {
+        startActivity(new Intent(this, ReservationsActivity.class));
+    }
+
     // LAUNCH THE ACTIVITY WITH THE PROFILE ACCOUNT OF THE USER
     public void ProfileActivity (View View) {
         startActivity(new Intent(this, ProfileActivity.class));

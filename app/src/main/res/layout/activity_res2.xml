@@ -71,6 +71,7 @@
             android:layout_marginRight="@dimen/margin_button"
             android:background="@drawable/bouton"
             android:text="@string/btn_valider"
+            android:onClick="MainActivity"
             android:textAllCaps="false"
             android:textColor="@color/white"
             android:textSize="@dimen/btn_text_size" />

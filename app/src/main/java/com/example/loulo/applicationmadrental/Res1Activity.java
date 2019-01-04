@@ -1,7 +1,9 @@
 package com.example.loulo.applicationmadrental;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -37,6 +39,10 @@ public class Res1Activity extends AppCompatActivity {
         tv_categorie.setText(categorieco2);
         tv_equipements.setText(equipements);
 
+    }
+
+    public void Res2Activity (View View) {
+        startActivity(new Intent(this, Res2Activity.class));
     }
 
 }
